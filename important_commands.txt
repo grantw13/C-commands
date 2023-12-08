@@ -1,0 +1,175 @@
+ls 
+NAME
+	ls - list directory
+
+SYNOPSIS
+	ls [flags] [file]
+
+DESCRIPTION
+	ls lists files and directories in current directory.
+
+
+	-l --long list
+		gives you the long list version of the files, with much more information.
+
+	-a -- all
+		shows hidden files in the directory as well.
+
+gcc
+NAME
+	gcc - gnu C compiler
+
+SYNOPSIS
+	gcc [input file] [flags] [output file (if -o)]
+
+DESCRIPTION
+	gcc compiles C language files.
+
+	-o --output file
+		flag allows you to input the file output name of the executable.
+
+	-w --warnings
+		flag disables warnings during the compliation of the C file.
+
+cp
+NAME
+	cp - copy
+
+SYNOPSIS
+	cp [flags] [file] [destination]
+
+DESCRIPTION
+	cp copies a file(s) from [source] to [destination].
+
+	-R - recursive
+		flag is used to recursively copy folders.
+
+wc
+NAME
+	wc - word count
+
+SYNOPSIS
+	wc [flags] [file]
+
+DESCRIPTION
+	wc counts number of lines, bytes and characters, and words in the specified file.
+
+	-w -- words
+		flag returns the word count only.
+
+	-m -- count of characters
+		flag returns the character count only.
+
+whoami
+NAME
+	whoami - who am I
+
+SYNOPSIS
+	whoami [flags]
+
+DESCRIPTION
+	whoami prints the username of the current user.
+
+	--help - help
+		brings up manual for "whoami" including description.
+
+head
+NAME
+	head - header
+
+SYNOPSIS
+	head [flags] [file]
+
+DESCRIPTION
+	head prints the first ten lines of the given file.
+
+	-n -- number
+		prints the specified "n" amount of lines from the beginning of the file.
+
+tail
+NAME
+	tail - tail
+
+SYNOPSIS
+	tail [flags] [file]
+
+DESCRIPTION
+	tail prints the last ten lines of the given file.
+
+	-c -- count bytes
+		only prints the specified number of bytes from the file.
+
+echo
+NAME
+	echo - echo
+
+SYNOPSIS
+	echo [flags] [file or text]
+
+DESCRIPTION
+	echo prints the given input to the system or to a specifed file.
+
+	> -- redirection
+		creates and writes, or overwrites, the specifed file with the generated output.
+	
+	>> -- append
+		appends the generated output to the specifed file.
+
+rm
+NAME
+	rm - remove
+
+SYNOPSIS
+	rm [flags] [file]
+
+DESCRIPTION
+	rm removes the specifed file or directory.
+
+	-f -- force remove
+		Suppresses prompts before deleting files.
+
+	-dir -- directory
+		Removes empty directories, does not need to specify -R.
+
+	-R --recursive
+		removes directories recursively.
+
+mkdir
+NAME
+	mkdir - make directory
+
+SYNOPSIS
+	mkdir [flags] [name]
+
+DESCRIPTION
+	mkdir creates a new directory in the current directory with the specified name.
+
+	-v -- verbose
+		prints output message for each directory made.
+
+pwd
+NAME
+	pwd - print working directory
+
+SYNOPSIS
+	pwd [flags]
+
+DESCRIPTION
+	pws prints the path of the current working directory.
+
+	-P -- physical location
+		prints only the physical location of the file.
+
+
+cd
+NAME
+	cd - change directory
+
+SYNOPSIS
+	cd [directory or direct path]
+
+DESCRIPTION
+	cd changes users current location to specified directory.
+
+	-P -- physical location
+		only goes into directories that are not symbolic links.
